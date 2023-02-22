@@ -1,0 +1,144 @@
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grovalNavigation{
+        height: 80px;
+        background-color: #3366FF;
+    }
+
+
+.container{
+    height: 50px;
+    color: black;
+    text-align: center;
+    background-color: yellow;
+    display:flexbox;
+}
+
+.row{
+
+}
+
+.col{
+    border:solid;
+    height: 30px;
+background-color: #fff;
+}
+
+.appname {
+    display: flex;
+}
+
+
+
+    main{
+        min-height: 100vh;
+        display: flex;
+        margin-top: 10px;
+    }
+    .content{
+        flex: 1;
+        background-color: pink;
+        text-align: center;
+        margin-left: 10px;
+    }
+    
+    .localNavigation{
+        width: 15%;
+        text-align: center;
+        background-color: #888;
+        color: #fff;
+    }
+
+
+    
+    /*ページヘッダー*/
+#pageHead  #siteTitle {
+    font-size:30px;
+    line-height:1.2;
+    margin-bottom:0;
+    font-family: 'Vollkorn', serif;
+    background-color: lightblue;
+    }
+    
+    #pageHead #catchcopy {
+    font-size:12px;
+    line-height:1.5;
+    margin-top:5px;
+    background-color: lightblue;
+    }
+    
+    /*グローバルナビ*/
+    #pageHead .globalNavi {
+    border:solid#CCCCCC;
+    border-width:1px 0;
+    padding: 10px 0;
+    background-color: lightblue;
+    }
+    
+    #pageHead .globalNavi ul {
+    margin: 0;
+    padding: 0;
+    }
+    
+    #pageHead .globalNavi ul:after {
+    content: "";
+    clear: both;
+    display: block;
+    }
+    
+    #pageHead .globalNavi ul li {
+    list-style: none;
+    width: 245px;
+    float: left;
+    border-left: solid 1px #CCCCCC;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.429;
+    }
+    
+    #pageHead .globalNavi ul li  {
+    border-left: none;
+    }
+    
+    #pageHead .globalNavi ul li a {
+    color: inherit;
+    display: block;
+    padding: 5px 0;
+    }
+    
+    #pageHead .globalNavi ul li a:hover 
+    #pageHead .globnalNavi ul li.current a {
+    background-color: #F2F2E5;
+    }
+    
+    table{
+        border-collapse:separate;
+        border-spacing: 5px;
+        width: 100%;
+        background-color: #fff;
+        
+      }
+      
+      table th,table td{
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px 0;
+      }
+      
+      table th{
+        background-color: #c79852;
+        color: white;
+        border:solid 1px #927141;
+      }
+      
+      table td{
+        background-color: #e4d4bc;
+        border:solid 1px #af9d85;
+      }
+    
+    
